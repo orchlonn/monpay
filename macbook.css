@@ -20,7 +20,7 @@ li, a, button {
     text-decoration: none;
 }
 #navbar{
-    position: sticky;
+    // position: sticky;
     top: 0;
 }
 
@@ -77,16 +77,16 @@ header{
 
 .content{
     background-color: #6872FF;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
 }
 
 .big-title{
     color: #fff;
-    font-size: 7rem;
-    margin-left: 20rem;
-    margin-top: 16rem;
+    font-size: 5rem;
+    margin-left: 10rem;
+    margin-top: 13rem;
     display:inline-block;
 }
 
@@ -94,8 +94,8 @@ header{
     display: inline-block;
     font-weight: 900;
     color: #fff;
-    font-size: 5rem;
-    margin-left: 16rem;
+    font-size: 4.5rem;
+    margin-left: 5rem;
 }
 span{
     margin-left: -3rem;
@@ -103,13 +103,13 @@ span{
 
 .graphic-img {
     margin-top: 4rem;
-    width: 62.29rem;
+    width: 100%;
     margin-top: 3rem;
 }
 
 #flex-content{
     width: 100vw;
-    height: 100vh;
+    height: 750px;
     background-color: #00D5FF;
 }
 
@@ -119,12 +119,12 @@ span{
 }
 
 .box{
-    height: 15rem;
-    width: 10rem;
+    height: 14rem;
+    width: 9rem;
     display: inline-block;
     background-color: #fff;
     border-radius: 15px;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     cursor: pointer;
 }
@@ -136,7 +136,7 @@ span{
 }
 
 .icon{
-    width: 9rem;
+    width: 8rem;
     padding-left: 1rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -149,7 +149,6 @@ span{
 
 .title-grid {
     margin: 3rem 0;
-    margin-top: 12rem;
     font-weight: 300;
     font-size: 3rem;
 }
@@ -157,19 +156,18 @@ span{
 .title-ded{
     display: flex;
     justify-content: center;
-    font-size: 1.3rem;
 }
 
 #grid__partners{
     width: 100vw;
-    height: 100vh;
+    height: 700px;
 }
 
 .left-side {
     float: left;
     background-color: #6872FF;
     width: 45vw;
-    height: 100vh;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,26 +176,26 @@ span{
 .title-partners{
     font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight:300;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff;
-    padding: 1.5rem 1.5rem;
+    padding: 1rem 1rem;
 }
 
 .button-partners{
-    margin-top: 3rem;
-    margin-left: 18rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
     font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 #news{
-    height: 85vh;
+    height: 750px;
     width: 100vw;
     background: #DFF2FF;
     display: flex;
 }
 
 .row{
-    margin-top: 10rem;
+    margin-top: 6.5rem;
     width: 400px;
     justify-content: space-around;
     margin-left: 4rem;
@@ -264,7 +262,7 @@ span{
 }
 
 .right-side{
-    height: 100vh;
+    height: 700px;
     width: 55vw;
     float: left;
 }
@@ -275,6 +273,6 @@ span{
 
 .mySlides {
     width: 100%;
-    height: 100vh;
+    height: 700px;
     padding: 0.5rem;
 }
