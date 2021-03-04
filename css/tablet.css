@@ -2,6 +2,10 @@ body{
     overflow-x: hidden;
 }
 
+.container{
+    height: 700px;
+}
+
 #navbar .nav__links{
     display: none;
 }
@@ -45,9 +49,12 @@ body{
     font-size: 2rem;
 }
 
-.grid-partners{
-    height: 100vh;
+#grid__partners{
     width: 100vw;
+}
+
+.mySlides{
+    height: 650px;
 }
 
 .icon{
@@ -64,7 +71,7 @@ body{
 
 .right-side{
     width: 100vw;
-    height: 100vh;
+    height: 650px;
 }
  
 .hide{
@@ -104,4 +111,8 @@ body{
 
 .small {
     font-size: 1.2rem;
+}
+
+#flex-content{
+    height: 600px;
 }
