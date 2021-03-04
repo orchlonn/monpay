@@ -14,15 +14,14 @@ body{
     height: 100vh;
 }
 
-#navbar{
-    // position: sticky;
-    top: 0;
-}
-
 li, a, button {
     font-weight: 900;
     font-size: 1.3rem;
     text-decoration: none;
+}
+#navbar{
+    // position: sticky;
+    top: 0;
 }
 
 header{
@@ -44,11 +43,15 @@ header{
     margin-left: auto;
     cursor: pointer;
     padding: 12px 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: #00D5FF 2px solid;
     background: #6872FF;
     box-shadow: 0px 1px 1px #888888;
     box-shadow: 0 5px 8px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
+}
+
+.hide{
+    display: none;
 }
 
 .logo{
@@ -106,7 +109,7 @@ span{
 
 #flex-content{
     width: 100vw;
-    height: 105vh;
+    height: 750px;
     background-color: #00D5FF;
 }
 
@@ -179,7 +182,6 @@ span{
 }
 
 .button-partners{
-    margin-left: 12rem;
     margin-top: 2rem;
     font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
 }
@@ -189,7 +191,6 @@ span{
     width: 100vw;
     background: #DFF2FF;
     display: flex;
-    
 }
 
 .row{

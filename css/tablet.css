@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden;
+}
+
+#navbar .nav__links{
+    display: none;
+}
+
+#navbar .button{
+    margin-right: 10rem;
+}
+
+#navbar img {
+    margin-left: 3rem;
+}
+
+.content .graphic-img{
+    display: none;
+}
+
+.titles{
+    margin-left: 2rem;
+}
+
+.big-title{
+    font-size: 4.5rem;
+}
+
+.small-title{
+    font-size: 4.2rem;
+}
+
+.title .title-grid{
+    font-size: 2rem;
+}
+
+.box{
+    height: 11rem;
+    width: 7rem;
+}
+
+.box:hover{
+    height: 12rem;
+    width: 7rem;
+    font-size: 2rem;
+}
+
+.grid-partners{
+    height: 100vh;
+    width: 100vw;
+}
+
+.icon{
+    width: 6rem;
+}
+
+.title-ded{
+    font-size: 15px;
+}
+
+.left-side{
+    display: none;
+}
+
+.right-side{
+    width: 100vw;
+    height: 100vh;
+}
+ 
+.hide{
+    display: block;
+    background-color: #fff;
+}
+
+.btn-p{
+    margin-left: 18rem;
+    margin-bottom: 1rem;
+}
+
+#news{
+    display: flex;
+    height: 730px;
+    
+}
+
+.row{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;    
+}
+
+
+.footer .logo-f{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.footer .logo-vg{
+    width: 10rem;
+}
+
+.black-a{
+    font-size: 1.5rem;
+}
+
+.small {
+    font-size: 1.2rem;
+}
