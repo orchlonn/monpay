@@ -20,7 +20,7 @@ li, a, button {
     text-decoration: none;
 }
 #navbar{
-    // position: sticky;
+    position: sticky;
     top: 0;
 }
 

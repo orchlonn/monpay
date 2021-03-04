@@ -1,23 +1,70 @@
-body{
-    font-family: 'Roboto', sans-serif;
+*{
+    overflow-x: hidden;
+}
+
+#navbar{
+    display: flex;
+    width: 100vw;
+}
+
+#navbar .logo{
+    margin-left: 0;
 }
 
 #navbar .button{
-    margin-right: 5rem;
+    margin-right: 0;
 }
 
-.titles{
-    
+span{
+    margin-left: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .big-title{
-    font-size: 4rem;
-    margin-left: 8rem;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    line-height: 1.5em;
 }
 
 .small-title{
-    font-size: 3rem;
-    margin-right: 0.3rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.container{
+    height: 86.5vh;
+}
+
+#flex-content{
+    height: 420px;
+}
+
+#flex-content .title-grid{
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.box{
+    height: 8rem;
+    width: 5rem;
+}
+
+.icon{
+    width: 4rem;
+}
+
+.title-ded{
+    font-weight: 100;
+    font-size: 10px;
+}
+
+#grid__partners{
+    height: 450px;
 }
 
 .right-side{
@@ -26,15 +73,59 @@ body{
 
 .left-side{
     display: block;
-    width: 100%;
-    height: 300px;
+    width: 100vw;
+    height: 450px;
 }
 
-.title-partners {
-    margin-top: 1rem;
+.title-partners{
+    margin-top: 1.5rem;
     font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .button-partners{
-    margin-left: 10.5rem;
+    margin-left: 4rem;
+}
+
+#news{
+    display: block;
+    height: 800px;
+}
+
+.row{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.news-li{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.news-li a {
+    font-size: 1rem;
+}
+
+.row h2{
+    font-size: 1.5rem;
+}
+
+.logo-f{
+    display: none;
+}
+
+.footer .logo-vg{
+    width: 6rem;
+    padding-right: 0rem;
+}
+
+.footer .privacy{
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.privacy a{
+    margin-left: 0rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
 }
