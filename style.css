@@ -15,7 +15,7 @@ body{
 }
 
 #navbar{
-    position: sticky;
+    // position: sticky;
     top: 0;
 }
 
@@ -163,31 +163,19 @@ span{
 .left-side {
     float: left;
     background-color: #6872FF;
-    width: 50vw;
+    width: 45vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.right-side{
-    height: 100vh;
-    width: 50%;
-    float: left;
-    position: absolute;
-    right: 0;
-    background-image: url("./images/p1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    // background-size: cover;
-}
-
 .title-partners{
     font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight:300;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #fff;
-    margin: 1rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .button-partners{
@@ -197,7 +185,7 @@ span{
 }
 
 #news{
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     background: #DFF2FF;
     display: flex;
@@ -269,4 +257,20 @@ span{
 
 .privacy a {
     margin-left: 2rem;
+}
+
+.right-side{
+    height: 100vh;
+    width: 55vw;
+    float: left;
+}
+
+.carousel-slide{
+    overflow: hidden;
+}
+
+.mySlides {
+    width: 100%;
+    height: 100vh;
+    padding: 0.5rem;
 }
