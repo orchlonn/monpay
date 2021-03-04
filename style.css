@@ -2,11 +2,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: "Roboto";
 }
 
 body{
     position: absolute;
+    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
 .container {

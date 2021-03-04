@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 #navbar .button{
     margin-right: 5rem;
 }

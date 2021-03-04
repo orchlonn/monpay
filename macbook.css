@@ -2,12 +2,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: "Roboto";
 }
 
 body{
     position: absolute;
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 .container {
     width: 100vw;
@@ -109,7 +109,7 @@ span{
 
 #flex-content{
     width: 100vw;
-    height: 750px;
+    height:  840px;
     background-color: #00D5FF;
 }
 
@@ -149,6 +149,7 @@ span{
 
 .title-grid {
     margin: 3rem 0;
+    margin-top: 6rem;
     font-weight: 300;
     font-size: 3rem;
 }
@@ -156,6 +157,7 @@ span{
 .title-ded{
     display: flex;
     justify-content: center;
+    font-size: 1.2rem;
 }
 
 #grid__partners{
@@ -188,7 +190,7 @@ span{
 }
 
 #news{
-    height: 750px;
+    height: 85vh;
     width: 100vw;
     background: #DFF2FF;
     display: flex;
@@ -206,9 +208,8 @@ span{
 }
 
 .news-li{
-    margin-top: 5rem;
+    margin-top: 3rem;
     list-style-type: none;
-
 }
 
 .news-li a {
