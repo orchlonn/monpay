@@ -278,3 +278,7 @@ span{
     height: 100vh;
     padding: 0.5rem;
 }
+
+.menu-wrap{
+    display: none;
+}
