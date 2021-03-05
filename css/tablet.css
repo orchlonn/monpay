@@ -45,7 +45,7 @@ body{
 }
 
 .box:hover{
-    height: 12rem;
+    height: 11rem;
     width: 7rem;
     font-size: 2rem;
 }
